@@ -651,7 +651,8 @@ body.landing #main {
 #instagram,
 #github,
 #codepen,
-#linkedin {
+#linkedin,
+#gmail {
   font-size: 1.5em;
   background-color: pink;
   color: #fff;
@@ -677,6 +678,9 @@ body.landing #main {
 }
 #codepen {
   animation-delay: 0.2s;
+}
+#gmail{
+	animation-delay: 0.4s;
 }
 
 @keyframes animate {
