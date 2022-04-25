@@ -615,19 +615,20 @@ body.landing #main {
 
 .box .image.featured {
   border-radius: 0;
-  display: block;
+  display: flex;
   margin: 3em 0em -3em -3em;
   position: relative;
   width: calc(100% + 6em);
+  justify-content: center;
 }
 
 .box .image.featured img {
   border-radius: 0;
-  display: block;
-  width: 100%;
-  height: 431px;
-  object-fit: cover;
-}
+  display: flex;
+  width: auto;
+  height: auto;
+  object-fit: fill;
+  }
 
 .box .features .contact {
   background: #fffff;
