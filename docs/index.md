@@ -1,37 +1,114 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/paucamcal/paucamcal/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+  <title>PauCamCal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1,  shrink-to-fit=no">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <!--HEAD FONTS and ICONS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link href="https://kit.fontawesome.com/b0d98f1de6.js" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--HEAD SOCIAL LINKS-->
+  <link rel="stylesheet" href="https://www.instagram.com/paucamcal/">
+  <link rel="stylesheet" href="https://www.linkedin.com/in/paucamacho/">
+  <link rel="stylesheet" href="https://codepen.io/paucamcal/full/MWrLOzY">
+  <link rel="stylesheet" href="https://github.com/paucamcal">
+  <link rel="stylesheet" href="https://paucamcal.github.io/style.css">
+  <link rel="stylesheet" href="https://mail.google.com/mail/?view=cm&fs=1&to=paucamcalderon@gmail.com&su=SUBJECT&body=BODY">
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body class="landing">
+  <div id="page-wrapper">
+	<!--header-->
+	<header id="header" class="alt">
+	  <h1 style="color:#F1DBFF; font-weight: 700; font-family: Orbitron;">
+		<a href="https://codepen.io/paucamcal/full/MWrLOzY"></a> by PauCamCal
+		<a><i class="fa-solid fa-moon" style="color: #ffb7c5;"></i></a>
+	  </h1>
+	  <nav id="nav">
+		<ul>
+		  <li style="white-space: nowrap;"><a href="https://codepen.io/paucamcal/full/MWrLOzY" style="color:#F1DBFF; font-weight: 700; font-family: Orbitron;">Home</a></li>
+		  <li class="opener" style="user-select: none; cursor: pointer; white-space: nowrap; opacity: 1; color:#F1DBFF; font-family: Orbitron;">
+			<a href="https://linktr.ee/paucamcal" target="_blank">Socials</a>
+		  </li>
+		</ul>
+	  </nav>
+	</header>
 
-### Markdown
+	<!--Hero Banner-->
+	<section>
+	  <div class="banner" id="banner">
+		<h2 style="color:#F1DBFF; font-weight: 700; font-family: Orbitron; letter-spacing: .2rem;">VAPORWAVE</h2>
+		<p style="font-family: Orbitron; letter-spacing: .2rem; font-weight: 600; color: #FAF9F6">Inspired by <br> 90s Neon Nightlife</p>
+	  </div>
+	</section>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+	<!-- Main Container Box -->
+	<div id="main" class="container">
+	  <section class="box special">
+		<header class="major">
+		  <h2 class="bio">Bio</h2>
+		  <p>Hi, I’m @paucamcal! I’m a self taught frontend developer with a Codepen and Github addiction. I was introduced to HTML and CSS during my pre-teen Tumblr years circa 2008. Side note: Tumblr is a blog style, image sharing platform, that allows users to customize their pages using code! Right out of college, I was working as a behavioral therapist but during the pandemic, I couldn't help but make my way back to web dev. I'm interested in traveling and reading spooky novels, am currently learning JavaScript and Japanese, enjoy keeping up with all things frontend and most importantly I love spending time with my pup.~
+		  </p>
+		  <div class="image featured"><img src="https://cdn.pixabay.com/photo/2017/09/26/22/23/pixel-2790335_1280.png" alt="neon cityskape"></div>
+		</header>
+	  </section>
 
-```markdown
-Syntax highlighted code block
+	  <!-- Special Box Container -->
+	  <div class="skills">
+		<h2>SKILLS</h2>
+	  </div>
+	  <div class="box special features">
+		<div class="features-row">
+		  <section>
+			<span class="icon solid major fa-brands fa-html5"></span>
+			<h3>HTML5</h3>
+		  </section>
+		  <section>
+			<span class="icon solid major fa-brands fa-css3-alt"></span>
+			<h3>CSS3</h3>
+		  </section>
+		</div>
+		<div class="features-row">
+		  <section>
+			<span class="icon solid major fa-brands fa-js"></span>
+			<h3>JAVASCRIPT</h3>
+		  </section>
+		  <section>
+			<span class="icon solid major fa-brands  fa-wordpress-simple"></span>
+			<h3>WORDPRESS</h3>
+		  </section>
+		</div>
+	  </div>
 
-# Header 1
-## Header 2
-### Header 3
+	  <!--CONTACT FORM-->
+	  <section class="box special">
+		<header class="contact">
+		  <h2 class="contact">CONTACT</h2>
+		  <br>
+		</header>
+		<p>Reach me at: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=paucamcalderon@gmail.com&su=SUBJECT&body=BODY" target="_blank" style="color: #445">paucamcalderon@gmail.com</a></p>
+	  </section>
+	</div>
+  </div>
 
-- Bulleted
-- List
+  <!--Footer-->
+  <footer id="footer">
+	<ul class="icons">
+	  <li><a href="https://codepen.io/paucamcal" class="label" id="codepen" target="_blank"><i class="icon fa fa-codepen"></i></a></li>
+	  <li><a href="https://paucamcal.github.io/style.css" class="label" id="github" target="_blank"><i class="icon fa fa-github"></i></a></li>
+	  <li><a href="https://www.linkedin.com/in/paucamacho/" class="label" id="linkedin" target="_blank"><i class="icon fa fa-linkedin"></i></a></li>
+	  <li><a href="https://www.instagram.com/paucamcal/" class="label" id="instagram" target="_blank"><i class="icon fa fa-instagram"></i></a></li>
+	</ul>
+	<ul class="copyright">
+	  <li>© Vaporwave. All rights reserved.</li>
+	  <li>Design:<a href="#">PauCamCal</a></li>
+	</ul>
 
-1. Numbered
-2. List
+  </footer>
+</body>
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/paucamcal/paucamcal/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
