@@ -724,7 +724,7 @@ body.landing #main {
 
 /* Mobile */
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 850px) {
   /* Basic */
 
   body,
@@ -858,7 +858,7 @@ body.landing #main {
 
 /* Mobile (Portrait) */
 
-@media screen and (width: 830px) {
+@media screen and (width: 850px) {
   /* Basic */
 
   html,
