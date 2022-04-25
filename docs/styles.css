@@ -539,6 +539,7 @@ body.landing #main {
   border-radius: 3px;
   margin: 0 0 4em 0;
   padding: 3em;
+  padding-left: 63px;
 }
 
 .box > :last-child {
