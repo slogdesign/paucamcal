@@ -855,6 +855,8 @@ body.landing #main {
 	font-size: 1em;
 	flex-direction: row;
 	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
   }
 }
 
