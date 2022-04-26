@@ -617,10 +617,11 @@ body.landing #main {
 .box .image.featured {
   border-radius: 0;
   display: flex;
-  margin: 3em -3em -3em -3em;
+  margin: 3em 0 -3em -3em;
   position: relative;
   width: calc(100% + 6em);
   justify-content: center;
+  object-fit: fill;
 }
 
 .box .image.featured img {
