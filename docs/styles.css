@@ -564,7 +564,8 @@ body.landing #main {
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
-  align-items: stretch;
+  align-items: center;
+  justify-content: center;
 }
 
 .row h3 {
@@ -810,13 +811,15 @@ body.landing #main {
 }
 
 /*ROW MOBILE*/
-@media screen and (max-width: 1680px) {
+@media screen and (max-width: auto) {
 
 	.row {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
+		align-items: center;
+		justify-content: center;
+
 	}
 
 		.row > * {
@@ -1054,9 +1057,6 @@ body.landing #main {
 				}
 
 }
-
-
-
 
 
 
