@@ -1162,11 +1162,7 @@ ul.icons li .icon {
 	padding-right: 0.5em;
   }
 
-  .banner {
-	background-position: center, center;
-	background-repeat: repeat, no-repeat;
-	background-size: round;
-  }
+
   /* Box */
 
   .box {
@@ -1209,7 +1205,12 @@ ul.icons li .icon {
 
   #banner {
 	padding: 4em 0;
-  }
+	  background-position: center, center;
+	  background-repeat: repeat, no-repeat;
+	  background-size: cover, cover;
+	  align-content: center;
+	  text-align: center;
+	}
 
   #banner h2 {
 	font-size: 2.25em;
