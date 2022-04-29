@@ -15,8 +15,7 @@
   <link rel="stylesheet" href="https://www.instagram.com/paucamcal/">
   <link rel="stylesheet" href="https://www.linkedin.com/in/paucamacho/">
   <link rel="stylesheet" href="https://codepen.io/paucamcal/full/MWrLOzY">
-  <link rel="stylesheet" href="https://github.com/paucamcal">
-  <link rel="stylesheet" href="https://paucamcal.github.io/style.css">
+  <link rel="stylesheet" href="https://paucamcal.github.io/paucamcal/">
   <link rel="stylesheet" href="https://mail.google.com/mail/?view=cm&fs=1&to=paucamcalderon@gmail.com&su=SUBJECT&body=BODY">
 </head>
 
@@ -24,15 +23,15 @@
   <div id="page-wrapper">
 	<!--header-->
 	<header id="header" class="alt">
-	  <h1 style="color:#f5f5f5; font-weight: 700; font-family: Orbitron;">
+	  <h1 style="color:#F1DBFF; font-weight: 700; font-family: Orbitron;">
 		<a href="https://codepen.io/paucamcal/full/MWrLOzY"></a> by PauCamCal
-		<a><i class="fa-solid fa-moon" style="color: #16461F;"></i></a>
+		<a><i class="fa-solid fa-moon" style="color: #ffb7c5;"></i></a>
 	  </h1>
 	  <nav id="nav">
 		<ul>
-		  <li style="white-space: nowrap;"><a href="https://codepen.io/paucamcal/full/MWrLOzY" style="color:#f5f5f5; font-weight: 700; font-family: Orbitron;">Home</a></li>
-		  <li class="opener" style="user-select: none; cursor: pointer; white-space: nowrap; opacity: 1; color:#f5f5f5; font-family: Orbitron;">
-			<a href="https://linktr.ee/paucamcal" target="_blank">Socials</a>
+		  <li style="white-space: nowrap;"><a href="https://paucamcal.github.io/paucamcal/" style="color:#F1DBFF; font-weight: 700; font-family: Orbitron;">Home</a></li>
+		  <li class="opener" style="user-select: none; cursor: pointer; white-space: nowrap; opacity: 1; color:#F1DBFF; font-family: Orbitron;">
+			<a href="file:///Users/luna/Documents/GitHub/paucamcal.github.io/solarpunk/index.html" target="_blank">Solarpunk</a>
 		  </li>
 		</ul>
 	  </nav>
@@ -41,8 +40,8 @@
 	<!--Hero Banner-->
 	<section>
 	  <div class="banner" id="banner">
-		<h2 style="color:#f5f5f5; font-weight: 700; font-family: Orbitron; letter-spacing: .2rem; text-shadow: 2px 2px #16461F;">SOLARPUNK</h2>
-		<p style="font-family: Orbitron; letter-spacing: .2rem; font-weight: 600; color: #f5f5f5; text-shadow: 1px 1px #16461F;">Inspired by <br> City in a Garden, Singapore</p>
+		<h2 style="color:#F1DBFF; font-weight: 700; font-family: Orbitron; letter-spacing: .2rem;">VAPORWAVE</h2>
+		<p style="font-family: Orbitron; letter-spacing: .2rem; font-weight: 600; color: #FAF9F6">Inspired by <br> 90s Neon Nightlife</p>
 	  </div>
 	</section>
 
@@ -50,40 +49,37 @@
 	<div id="main" class="container">
 	  <section class="box special">
 		<header class="major">
-		  <h2 class="bio">ABOUT ME</h2>
-		  <p>Hi, I’m @paucamcal! I’m a self taught frontend developer with a Codepen and Github addiction. I was introduced to HTML and CSS during my pre-teen Tumblr years circa 2008. Side note: Tumblr is a blog style, image sharing platform, that allows users to customize their pages using code! Right out of college, I was working as a behavioral therapist but during the pandemic, I couldn't help but make my way back to web dev. I'm interested in traveling and reading spooky novels, am currently learning JavaScript and Japanese, enjoy keeping up with all things frontend and most importantly I love spending time with my pup.~
+		  <h2 class="bio">Bio</h2>
+		  <p>Hi, I’m @paucamcal! I’m a self taught frontend developer with a Codepen and Github addiction. I was introduced to HTML and CSS during my pre-teen Tumblr years circa 2008. Side note: Tumblr is a blog style and image-sharing platform that allows users to customize their pages using code! Right out of college, I was working as a behavioral therapist but during the pandemic, I couldn't help but make my way back to web dev. I'm interested in traveling and reading spooky novels, am currently learning JavaScript and Japanese, enjoy keeping up with all things frontend and most importantly I love spending time with my pup.~
 		  </p>
-		  <div class="image featured">
-			<img src="https://video-images.vice.com/articles/612e7abe9d5c92009bc79a11/lede/1630436348818-solar.jpeg?crop=1xw:0.5714285714285714xh;center,center" alt="singapore cityskape" />
-
-		  </div>
+		  <div class="image featured"><img src="https://www.pinclipart.com/picdir/big/85-851163_silhouette-wallpaper-at-getdrawings-com-free-for-outrun.png" alt="neon cityskape"></div>
 		</header>
 	  </section>
 
 	  <!-- Special Box Container -->
-	  <div class="row">
-		<div class="col-6 col-12-narrower">
-		  <section class="box special">
-			<span class="image featured"><img src="https://data.whicdn.com/images/308530056/original.gif" alt=""></span>
-			<h3>Vaporwave</h3>
-			<p>Inspired by 90s Neon Nightlife.</p>
-			<ul class="actions special">
-			  <li><a href="https://paucamcal.github.io/paucamcal/" class="button alt" target="_blank" style="color:#16461F;">Learn More</a></li>
-			</ul>
+	  <div class="skills">
+		<h2>SKILLS</h2>
+	  </div>
+	  <div class="box special features">
+		<div class="features-row">
+		  <section>
+			<span class="icon solid major fa-brands fa-html5"></span>
+			<h3>HTML5</h3>
 		  </section>
-
+		  <section>
+			<span class="icon solid major fa-brands fa-css3-alt"></span>
+			<h3>CSS3</h3>
+		  </section>
 		</div>
-		<div class="col-6 col-12-narrower">
-
-		  <section class="box special">
-			<span class="image featured"><img src="https://cdna.artstation.com/p/assets/images/images/019/800/798/original/barthelemy-aupetit-solarpunk-lr-process.gif?1565070778" alt=""></span>
-			<h3>Solarpunk</h3>
-			<p>Inspired by A City in a Garden, Singapore.</p>
-			<ul class="actions special">
-			  <li><a href="https://github.com/paucamcal/solarpunk.git" class="button alt" target="_blank" style="color:#16461F;">Learn More</a></li>
-			</ul>
+		<div class="features-row">
+		  <section>
+			<span class="icon solid major fa-brands fa-js"></span>
+			<h3>JAVASCRIPT</h3>
 		  </section>
-
+		  <section>
+			<span class="icon solid major fa-brands  fa-wordpress-simple"></span>
+			<h3>WORDPRESS</h3>
+		  </section>
 		</div>
 	  </div>
 
