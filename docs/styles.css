@@ -427,7 +427,7 @@ body.landing #main {
 
 .banner {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-	url("https://data.whicdn.com/images/308530056/original.gif");
+	url("https://c4.wallpaperflare.com/wallpaper/500/442/354/outrun-vaporwave-hd-wallpaper-preview.jpg");
   background-attachment: scroll, fixed;
   background-color: #445;
   background-position: center, center;
@@ -524,6 +524,7 @@ body.landing #main {
 }
 
 .bio,
+.portfolio,
 .contact {
   font-size: 1.5em;
   text-align: center;
@@ -633,7 +634,7 @@ body.landing #main {
   }
 
 .box .features .contact {
-  background: #fffff;
+  background: #ffffff;
   border-radius: 3px;
   margin: 0 0 4em 0;
   padding: 3em;
