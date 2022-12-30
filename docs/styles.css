@@ -199,6 +199,15 @@ h3 {
   letter-spacing: -0.025em;
 }
 
+a {
+  color: inherit; /* preserves the inherited text color */
+  text-decoration: none; /* remove the default underline */
+}
+
+a:hover {
+  text-decoration: underline; /* add an underline on hover if desired */
+}
+
 /*HEADER*/
 
 #page-wrapper {
@@ -648,7 +657,6 @@ body.landing #main {
   height: 100vh;
   width: 100%;
   display: -webkit-flex; /* Safari */
-  display: flex;
   overflow: hidden;
   @media screen and (max-width: 768px) {
     flex-direction: column;
@@ -730,7 +738,7 @@ body.landing #main {
   @media screen and (min-width: 768px) {
     transform: rotate(90deg);
     top: 15%;
-    animation: aboutFlexSlide $defaultSeconds 1;
+    animation: $defaultSeconds 1;
     animation-delay: 0s;
   }
 }
@@ -753,7 +761,7 @@ body.landing #main {
 .flex-about-home {
   opacity: 0;
   @media screen and (min-width: 768px) {
-    animation: aboutFlexSlide $defaultSeconds 1;
+    animation: $defaultSeconds 1;
     animation-delay: 0s;
   }
 }
@@ -899,7 +907,8 @@ textarea {
   textarea {
     font-size: 11pt;
   }
-    header {
+
+  header {
     position: fixed;
     top: 0;
     left: 0;
@@ -928,8 +937,8 @@ textarea {
   header li {
     margin-bottom: 0.5em;
   }
-  
- nav {
+
+  nav {
     display: none;
   }
 
@@ -941,7 +950,7 @@ textarea {
   #nav-toggle:before {
     content: "Menu";
   }
-  
+
   h2 {
     font-size: 1.75em;
     line-height: 1.35em;
@@ -1005,6 +1014,11 @@ textarea {
   .box .image.featured:last-child {
     margin-bottom: -2em;
     margin-top: 2em;
+  }
+
+  .flex-container img {
+    width: 100%;
+    height: auto;
   }
 
   /* Banner */
@@ -1165,13 +1179,13 @@ textarea {
 
   #banner {
     padding: 5em 3em 4em 3em;
-    background-position: center, center;
-    background-repeat: repeat, no-repeat;
-    background-size: cover, cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     align-content: center;
     text-align: center;
   }
-  
+
   /* Main */
 
   #main > .box:first-child {
