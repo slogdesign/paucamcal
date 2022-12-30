@@ -141,8 +141,7 @@ body {
   line-height: 1.65em;
   -webkit-text-size-adjust: none;
   -ms-overflow-style: scrollbar;
-  background: #445;
-  color: #445;
+  background: rgba(170, 118, 220, 0.9);
   font-family: "Roboto", sans-serif;
   font-size: 16pt;
   font-weight: 300;
@@ -442,14 +441,10 @@ body.landing #main {
   background-position: center, center;
   background-repeat: repeat, no-repeat;
   background-size: cover, cover;
-  padding: 12em 0 20em 0;
+  padding: 6em 0 15em 0;
   margin-bottom: -250px;
   align-content: center;
   text-align: center;
-}
-
-#banner :last-child {
-  margin-bottom: 0;
 }
 
 #banner h2,
@@ -546,15 +541,11 @@ body.landing #main {
 /*BODY BOX MAIN */
 
 .box {
-  background: #f1dbff;
+  background: rgba(241, 219, 255, 0.7);
   border-radius: 3px;
   margin: 0 0 4em 0;
   padding: 3em;
   padding-left: 63px;
-}
-
-.box > :last-child {
-  margin-bottom: 0;
 }
 
 .box.alt {
@@ -565,64 +556,9 @@ body.landing #main {
   padding: 0 !important;
 }
 
-.box.features .features-row {
-  border-top: solid 2px #0f0c3a;
-  position: relative;
-}
-
-.box.features .features-row:after {
-  clear: both;
-  content: "";
-  display: block;
-}
-
-.box.features .features-row section {
-  float: left;
-  padding: 3em;
-  width: 50%;
-}
-
-.box.features .features-row section:last-child {
-  margin-bottom: 0;
-}
-
-.box.features .features-row section:nth-child(2n) {
-  padding-right: 0;
-}
-
-.box.features .features-row section:nth-child(2n):before {
-  background: #0f0c3a;
-  content: "";
-  display: block;
-  height: 100%;
-  margin-left: -3em;
-  position: absolute;
-  top: 0;
-  width: 2px;
-}
-
-.box.features .features-row section:nth-child(2n-1) {
-  padding-left: 0;
-}
-
-.box.features .features-row:first-child {
-  border-top: 0;
-}
-
-.box.features .features-row:first-child section {
-  padding-top: 0;
-}
-
-.box.features .features-row:last-child {
-  padding-bottom: 0;
-}
-
-.box.features .features-row:last-child section {
-  padding-bottom: 0;
-}
-
 .box.special {
   text-align: center;
+  height: auto;
 }
 
 .box .image.featured {
@@ -643,21 +579,15 @@ body.landing #main {
   object-fit: fill;
 }
 
-.box .features .contact {
-  background: #ffffff;
-  border-radius: 3px;
-  margin: 0 0 4em 0;
-  padding: 3em;
-  display: block;
-  width: 100%;
-  height: auto;
-}
 .flex-container {
-  position: inherit;
+  position: center;
   height: 100vh;
-  width: 100%;
+  width: 65%;
   display: -webkit-flex; /* Safari */
   overflow: hidden;
+  transform: rotate(-90deg);
+  margin: auto;
+  text-align: center;
   @media screen and (max-width: 768px) {
     flex-direction: column;
   }
@@ -781,30 +711,21 @@ body.landing #main {
 .about {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://media.istockphoto.com/id/1148595387/vector/synth-wave-retro-grid-background-synthwave-80s-vapor-vector-game-poster-neon-futuristic.jpg?s=612x612&w=0&k=20&c=BfGZVS1IbuzgABomM6s3AXkZkMTmC4z-y6oH68-DvNw=);
-  background-size: cover;
+  background-size: 100vw 100vh;
   background-position: center center;
   background-attachment: fixed;
-}
-.contact-form {
-  width: 100%;
-}
-input {
-  width: 100%;
-}
-textarea {
-  width: 100%;
 }
 .contact {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://i.ytimg.com/vi/xaeIuEY-jNo/maxresdefault.jpg);
-  background-size: cover;
+  background-size: 100vw 100vh;
   background-position: center center;
   background-attachment: fixed;
 }
 .work {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://st3.depositphotos.com/10325396/14757/i/600/depositphotos_147578829-stock-photo-retro-futuristic-background-1980s-style.jpg);
-  background-size: cover;
+  background-size: 100vw 100vh;
   background-position: center center;
   background-attachment: fixed;
 }
@@ -984,6 +905,7 @@ textarea {
     margin: 1em;
     overflow-x: hidden;
     padding: 2em 2em !important;
+    
   }
 
   .box.features .features-row section {
@@ -1014,11 +936,6 @@ textarea {
   .box .image.featured:last-child {
     margin-bottom: -2em;
     margin-top: 2em;
-  }
-
-  .flex-container img {
-    width: 100%;
-    height: auto;
   }
 
   /* Banner */
